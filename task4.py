@@ -16,4 +16,4 @@ try:
     input_num = int(input("Введите целое число: "))
     print(f"Количество разрядов числа {input_num}: {digit_calc(input_num)}")
 except ValueError:
-    print("Введённое значение не является числом")
+    print("Введённое значение не является целым числом")
